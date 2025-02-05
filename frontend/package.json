@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "nodemon -w server server/main.js",
+    "build": "react-scripts build",
     "compile": "webpack --mode development ",
     "watch": "webpack -w --config webpack.config.js --mode development",
     "linter": "eslint ."
@@ -24,6 +25,7 @@
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
+    "react-scripts": "^5.0.1",
     "webpack-merge": "^6.0.1"
   },
   "devDependencies": {
